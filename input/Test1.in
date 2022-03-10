@@ -1,0 +1,10 @@
+put www.google.com 8.8.8.8
+put www.facebook.com 69.171.255.12
+put www.yahoo.com 67.195.160.76
+put www.okazii.ro 217.156.103.254
+put www.olx.ro 192.228.79.201
+print
+get www.yahoo.com
+get www.facebook.com
+get www.olx.ro
+get www.okazii.ro

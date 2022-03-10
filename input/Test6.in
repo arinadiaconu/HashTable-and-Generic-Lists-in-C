@@ -1,0 +1,27 @@
+put www.google.com 8.8.8.8
+put www.facebook.com 69.171.255.12
+put www.google.com 8.8.8.8
+put www.yahoo.com 67.195.160.76
+put www.okazii.ro 217.156.103.254
+put www.olx.ro 192.228.79.201
+put www.teamnet.ro 86.105.246.122
+put www.okazii.ro 217.156.103.254
+put www.facebook.com 69.171.255.12
+print
+remove www.google.com
+remove www.facebook.com 
+remove www.google.com
+remove www.yahoo.com
+remove www.okazii.ro 
+remove www.olx.ro 
+remove www.teamnet.ro 
+remove www.okazii.ro 
+remove www.facebook.com 
+print
+print_bucket 0
+print_bucket 1
+find www.facebook.om
+find www.google.com
+get www.okazii.ro
+get www.teamnet.ro
+

@@ -1,0 +1,23 @@
+put www.google.com 8.8.8.8
+put www.facebook.com 69.171.255.12
+put www.google.com 8.8.8.8
+put www.yahoo.com 67.195.160.76
+put www.okazii.ro 217.156.103.254
+put www.olx.ro 192.228.79.201
+print
+remove www.radiozu.ro
+put www.okazii.ro 217.156.103.254
+put www.facebook.com 69.171.255.12
+put www.upb.ro 141.85.166.4
+put www.kissfm.ro 78.104.145.6
+put www.radiozu.ro 192.112.36.4
+remove www.okazii.ro
+put www.realitatea.net 199.127.181.242
+remove www.google.com
+print_bucket 2
+get www.facebook.com
+print
+find www.yahoo.com
+get www.okazii.ro
+find www.olx.ro
+get www.up.dk

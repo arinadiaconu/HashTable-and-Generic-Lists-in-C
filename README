@@ -1,0 +1,22 @@
+	DIACONU ARINA-IOANA   312CB
+
+			README
+
+	Tema este compusa din 3 fisiere sursa:
+		- unul pentru functiile ce vizeaza listele dublu inlantuite	circulare, generice (Liste2Generice.c);
+		- unul ce vizeaza prelucrarea tabelei hash (TabelaHash.c);
+		- unul principal, ce preia informatiile din fisierul de input si le prelucreaza, afisand 
+	rezultatele in fisierul de output (main.c).
+
+	1 - Liste2Generice.c - functii ce insereaza un element intr-o lista vida, inainte de primul element, 
+	respectiv inainte de un element diferit de primul, o functie de distrugere a listei, respectiv una ce 
+	calculeaza lungimea unei liste.
+
+	2 - TablaHash.c - functii ce prelucreaza tabela, incepand cu initializarea acesteia, distrugerea sa, 
+	afisare, inserare in tabela ordonat dupa key, cautare si stergere din tabela hash.
+
+	3 - main.c - contine definitia tipului de date cu care se lucreaza: {key, ip}, o functie ce calculeaza 
+	codul hash, functii specifice de afisare, eliberare si comparare a doua elemente, functia ce genereaza 
+	o tabela hash si programul principal, ce prelucreaza datele citite din fisierul de input, apeland, 
+	conform comenzii date, cate o functie de prelucrare a tabelei hash, urmand sa afiseze rezultatul 
+	obtinut in fisierul de output.

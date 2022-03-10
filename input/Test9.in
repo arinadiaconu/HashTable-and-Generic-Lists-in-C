@@ -1,0 +1,45 @@
+put www.google.com 8.8.8.8
+put www.facebook.com 69.171.255.12
+put www.google.com 8.8.8.8
+put www.yahoo.com 67.195.160.76
+put www.okazii.ro 217.156.103.254
+put www.olx.ro 192.228.79.201
+put www.teamnet.ro 86.105.246.122
+put www.okazii.ro 217.156.103.254
+put www.facebook.com 69.171.255.12
+put www.upb.ro 141.85.166.4
+put www.kissfm.ro 78.104.145.6
+put www.radiozu.ro 192.112.36.4
+put www.realitatea.net 199.127.181.242
+put www.antena3.ro 192.58.128.30
+put www.youtube.com 81.91.161.99
+put www.emag.ro 188.215.38.254
+put www.altex.ro 192.5.5.241
+put www.facebook.com 69.171.255.12
+put www.hp.com 192.162.16.18
+put www.samsung.com 216.69.185.52
+put www.mercador.ro 198.41.0.4
+put www.olx.ro 192.228.79.201
+put www.teamnet.ro 86.105.246.122
+put www.showyourip.com 192.41.162.30
+put www.okazii.ro 217.156.103.254
+put www.microsoft.ro 184.26.160.65
+put www.microchip.ro 193.0.14.129
+put www.roarmycatering.ro 192.162.16.18
+put www.cora.ro 209.112.114.33
+put www.auchan.ro 192.162.16.20
+print
+remove www.google.com
+get www.facebook.com
+find www.yahoo.com
+get www.hi5.com
+find www.olx.ro
+find www.profm.ro
+remove www.acs.ro
+find www.yahoo.com
+print_bucket 0
+print_bucket 1
+print_bucket 2
+print_bucket 3
+print_bucket 4
+print_bucket 10
