@@ -2,7 +2,7 @@
 
 			README
 
-	Tema este compusa din 3 fisiere sursa:
+	Proiectul este compus din 3 fisiere sursa:
 		- unul pentru functiile ce vizeaza listele dublu inlantuite circulare, generice (Liste2Generice.c);
 		- unul ce vizeaza prelucrarea tabelei hash (TabelaHash.c);
 		- unul principal, ce preia informatiile din fisierul de input si le prelucreaza, afisand 
